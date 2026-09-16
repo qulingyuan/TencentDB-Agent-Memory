@@ -1,0 +1,75 @@
+tenant/deploy/tunnel/config/rathole.server.base.toml
+  s_8b61ec680c3c6c::t_e09d9b39bcc8a6 1-11
+tenant/deploy/.env.tenant.example
+  s_8b61ec680c3c6c::t_7e32c34de29d9a 47-55
+tenant/deploy/tunnel/client-sample/rathole.client.toml.example
+  s_8b61ec680c3c6c::t_c7f44838147c06 1-15
+tenant/deploy/tunnel/issue-tunnel-client.sh
+  s_8b61ec680c3c6c::t_560ff573c6a6b0 29
+  s_8b61ec680c3c6c::t_21482f83ffd1b3 1-28,30-74,76-166
+  s_8b61ec680c3c6c::t_be68e659ec2ed4 75
+tenant/docs/kiro-reverse-tunnel.md
+  s_8b61ec680c3c6c::t_bf726786ceb2a2 43-54
+tenant/deploy/tunnel/client-sample/README.md
+  s_8b61ec680c3c6c::t_2bddd925ef3912 1-57
+tenant/deploy/start-all-tenant.sh
+  s_8b61ec680c3c6c::t_82a8c96d2fbddf 32-36
+tenant/README.md
+  s_8b61ec680c3c6c::t_abb65c9a0d298f 27-28
+  s_648e68df64eb1b::t_e2634c1fb38e7e 43-52,84
+  s_8b61ec680c3c6c::t_ddfa0e7c94d1b2 140-141
+tenant/deploy/tunnel/smoke-tunnel.sh
+  s_8b61ec680c3c6c::t_cf27a29b642aa4 1-8,10-16,18-63,67-71,73-75,77-79
+  s_8b61ec680c3c6c::t_0e3b2a7e065f8e 9,17,64-66,72,76
+.gitignore
+  s_8b61ec680c3c6c::t_ca5cbf83a339ab 78-79
+  s_8b61ec680c3c6c::t_620981414335bf 77
+tenant/deploy/tunnel/README.md
+  s_8b61ec680c3c6c::t_a8ffa53e2dcadd 92-94
+  s_8b61ec680c3c6c::t_9740a9dcef32d0 96-97,99-101
+  s_8b61ec680c3c6c::t_ea7fa01ed58313 1-91,95,98,102-118
+tenant/deploy/tunnel/start-tunnel-server.sh
+  s_8b61ec680c3c6c::t_85bdb29e917c9f 1-19,22-31,33-38,40-51,55-129
+  s_8b61ec680c3c6c::t_c0d8068cd6a2ff 39
+  s_8b61ec680c3c6c::t_a555033b6ed554 20-21,32,52-54
+.scratch/kiro-reverse-tunnel/issues/02-tunnel-plane-mvp.md
+  s_8b61ec680c3c6c::t_42c6a272225349 7-25
+  s_0532b7832e477d::t_2cf2a8eec05e2b 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "d6b235cb430fe8c1c0b62dfd86ffc7011552f3c2",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_0532b7832e477d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "437423f6-8465-4945-995f-81a46f71c17c",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_648e68df64eb1b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b1775470-9a91-4791-9df4-c4f14a123e16",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_8b61ec680c3c6c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "750ace98-2dbb-4724-b6b5-b6b6f5be337a",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
