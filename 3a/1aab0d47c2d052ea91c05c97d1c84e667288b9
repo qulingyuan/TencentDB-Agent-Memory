@@ -1,0 +1,58 @@
+tenant/docs/adr/0007-kiro-reverse-tunnel.md
+  s_0532b7832e477d::t_e211a8d1dfc9a5 1-58
+tenant/config-web/web/index.html
+  s_648e68df64eb1b::t_61b9496390af98 54,58-63,65-66
+  s_648e68df64eb1b::t_54a3f847ee46c3 143-149
+tenant/config-web/src/server.ts
+  s_648e68df64eb1b::t_65efc1fb3db07d 166-175,186-187
+  s_648e68df64eb1b::t_39fb02399065cb 30
+.scratch/kiro-reverse-tunnel/spec.md
+  s_0532b7832e477d::t_dc9571632f19e5 1-98
+tenant/README.md
+  s_648e68df64eb1b::t_d600f8fced6e74 122-132
+  s_648e68df64eb1b::t_9cb2a6679f78ea 12
+  s_648e68df64eb1b::t_f2998a37a25e4d 167-170
+  s_648e68df64eb1b::t_80639a3faef9cb 76-78
+tenant/docs/kiro-reverse-tunnel.md
+  s_648e68df64eb1b::t_df8d357e5057c7 1-48,50-51
+  s_648e68df64eb1b::t_698d904d0a57fb 49
+tenant/config-web/src/kiro-url-gate.smoke.mjs
+  s_648e68df64eb1b::t_287d740d70d97f 1-120
+.scratch/kiro-reverse-tunnel/issues/01-config-web-kiro-reachability-gates.md
+  s_0532b7832e477d::t_cf7f930e99dc2c 1-6
+  s_648e68df64eb1b::t_2eb9feb56872a9 7-23
+tenant/config-web/src/kiro-url-gate.ts
+  s_648e68df64eb1b::t_dd658ff877c2f1 40
+  s_648e68df64eb1b::t_1bd56d25217915 1-39,41-80
+tenant/config-web/package.json
+  s_648e68df64eb1b::t_aaddbd55b3eb1b 10-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "3a1aab0d47c2d052ea91c05c97d1c84e667288b9",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_0532b7832e477d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "437423f6-8465-4945-995f-81a46f71c17c",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_648e68df64eb1b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b1775470-9a91-4791-9df4-c4f14a123e16",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
