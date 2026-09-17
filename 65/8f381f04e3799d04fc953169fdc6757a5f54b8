@@ -1,0 +1,34 @@
+AGENTS.md
+  s_d8a4ed4276f53d::t_ec2ecb811e1143 1-13
+CLAUDE.md
+  s_e21d2ec0f0ab87::t_a69cf2fc3de121 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "658f381f04e3799d04fc953169fdc6757a5f54b8",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_d8a4ed4276f53d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e0b08136-0636-4069-949b-62ff3c2c8628",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_e21d2ec0f0ab87": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ef473c6d-e4c6-4625-acda-8b854421fd16",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
