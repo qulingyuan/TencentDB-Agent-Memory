@@ -1,0 +1,76 @@
+tenant/config-web/src/mem-core-profile.smoke.mjs
+  s_d8a4ed4276f53d::t_39415a61244d93 54-72
+MemoryProxy/src/upstream-resolver.ts
+  s_d8a4ed4276f53d::t_19b7cfeb771094 91
+  s_d8a4ed4276f53d::t_df736cbd43b21a 244-308,316,348,350-352,356-357
+  s_d8a4ed4276f53d::t_a5157e8f2f4d01 48-90
+tenant/config-web/web/index.html
+  s_d8a4ed4276f53d::t_4190152318bb4b 172
+  s_d8a4ed4276f53d::t_2448fd67404be7 293
+  s_d8a4ed4276f53d::t_784a622e686228 184
+  s_d8a4ed4276f53d::t_bb9145113949f9 97-104
+MemoryProxy/src/anthropicHandler.ts
+  s_d8a4ed4276f53d::t_0ab680417be265 1453-1552
+  s_d8a4ed4276f53d::t_8ed561d23032c2 1245-1253,1263-1269
+  s_d8a4ed4276f53d::t_66b8bee2a2a16f 51-56
+tenant/deploy/tunnel/README.md
+  s_d8a4ed4276f53d::t_5966ef53447bed 137-138
+tenant/config-web/src/mem-core.ts
+  s_d8a4ed4276f53d::t_9bf7c6d0df14fb 166-168,178-181
+  s_d8a4ed4276f53d::t_1c4afecb3e50ee 129-130
+tenant/patches/upstream-resolver.smoke.mjs
+  s_d8a4ed4276f53d::t_faf177efd5a98d 161,165-236
+  s_d8a4ed4276f53d::t_a27477caca0050 79-84
+  s_d8a4ed4276f53d::t_b88250c327826e 139-140
+tenant/CONTEXT.md
+  s_d8a4ed4276f53d::t_3fa96b0a610ff0 20
+tenant/patches/upstream-resolver.ts
+  s_d8a4ed4276f53d::t_97b0f75c58af85 91
+  s_d8a4ed4276f53d::t_a5157e8f2f4d01 244-308,316,348,350-352,356-357
+tenant/config-web/src/server.ts
+  s_d8a4ed4276f53d::t_2c6d92f16b62cb 192,208,232,236-242
+tenant/README.md
+  s_d8a4ed4276f53d::t_b0bbd494364d0d 172-177
+  s_d8a4ed4276f53d::t_adec000f2a9856 32-36
+.scratch/kiro-reverse-tunnel/issues/05-phase2-fallback-and-offline-errors.md
+  s_0532b7832e477d::t_d2c070ebe08f5b 1-6
+  s_d8a4ed4276f53d::t_e500f47f787e53 7-29
+tenant/patches/metadata_config_params.tenant.json
+  s_d8a4ed4276f53d::t_25f9407a4c355a 91-96
+tenant/patches/anthropicHandler.upstream-resolver.patch
+  s_d8a4ed4276f53d::t_40f59cd4638123 2,5,10-15,20,30-38,48-54,61,64-181
+tenant/docs/kiro-reverse-tunnel.md
+  s_d8a4ed4276f53d::t_909898ad499c40 76
+  s_d8a4ed4276f53d::t_339e522392fcd1 45-48
+tenant/docs/kiro-e2e-acceptance.md
+  s_d8a4ed4276f53d::t_5c267c13f50df5 75-92,106,108-109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "502fc0933774ab3cf1aeee3b00b200710d880dbe",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_0532b7832e477d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "437423f6-8465-4945-995f-81a46f71c17c",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_d8a4ed4276f53d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e0b08136-0636-4069-949b-62ff3c2c8628",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
