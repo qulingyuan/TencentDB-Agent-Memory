@@ -1,0 +1,69 @@
+tenant/docs/kiro-e2e-acceptance.md
+  s_a88ecf84776655::t_ab67d64ec57ffb 98-99
+tenant/config-web/src/tunnel-plane.smoke.mjs
+  s_a88ecf84776655::t_5c0617f5e8f28c 132-143
+  s_a88ecf84776655::t_2ae1b963ec4da6 1-131,144-194
+tenant/config-web/package.json
+  s_a88ecf84776655::t_96de75c7dea455 13-14
+.scratch/kiro-reverse-tunnel/issues/04-phase2-config-web-tunnel-enable.md
+  s_a88ecf84776655::t_42c665226ec058 7-29
+  s_0532b7832e477d::t_70c5d88f140ea4 1-6
+tenant/deploy/start-config-web.sh
+  s_a88ecf84776655::t_8c9e546691fe59 21-22,26
+  s_a88ecf84776655::t_9df6f1d5530a30 98,116-126,134-141
+  s_a88ecf84776655::t_80bc665f47a45e 60,63-67,71
+  s_a88ecf84776655::t_a05b82f8d6617b 101-115,127-128
+  s_a88ecf84776655::t_80dc70bb41e2b2 61-62,68-70
+  s_a88ecf84776655::t_225bda2c14b4c5 23-25
+tenant/deploy/.env.tenant.example
+  s_a88ecf84776655::t_8cb0a18aa32104 56-57,59
+  s_a88ecf84776655::t_db7a64098161cb 58
+tenant/config-web/src/server.ts
+  s_a88ecf84776655::t_f08e8463c78f5c 31-36
+  s_a88ecf84776655::t_e4b50931733424 240-267,269-347
+  s_a88ecf84776655::t_ec2c2a9e271450 268
+tenant/deploy/tunnel/README.md
+  s_a88ecf84776655::t_4a955d1c2293b8 114-119,124-127,130,133,136
+  s_a88ecf84776655::t_928ab0baa1b88e 120-123,128-129,131-132
+tenant/docs/kiro-reverse-tunnel.md
+  s_a88ecf84776655::t_44633389350054 40-43
+  s_a88ecf84776655::t_d488805f0de09f 74
+  s_a88ecf84776655::t_6b1dd5e04a78d0 36
+tenant/config-web/web/index.html
+  s_a88ecf84776655::t_79ba106cba412f 181-185,188-269,278,288-291
+  s_a88ecf84776655::t_b5b0737ee7e4b0 62-70,72-94,96-97
+  s_a88ecf84776655::t_dbe4603968b977 71
+tenant/config-web/src/tunnel-plane.ts
+  s_a88ecf84776655::t_1f27f808f3b741 1-20,22-279,283-296,307-329
+  s_a88ecf84776655::t_14909650d491e1 280-282,297-306
+  s_a88ecf84776655::t_8cc31e37ecec65 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "3524885462d8695506e1bed552a9d55266933470",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_0532b7832e477d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "437423f6-8465-4945-995f-81a46f71c17c",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_a88ecf84776655": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "dea9eaf8-99c9-4995-9430-27a0da02f078",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
