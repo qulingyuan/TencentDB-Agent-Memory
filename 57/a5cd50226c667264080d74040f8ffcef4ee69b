@@ -1,0 +1,112 @@
+tenant/docs/kiro-reverse-tunnel.md
+  s_877ee84f308f8e::t_62bf27749e90d0 55-61
+tenant/deploy/tunnel/README.md
+  s_877ee84f308f8e::t_ef1fc7161a524f 84-85
+tenant/config-web/package.json
+  s_877ee84f308f8e::t_42871717ca6eed 11-13
+  s_648e68df64eb1b::t_e2634c1fb38e7e 16
+tenant/config-web/src/mem-core.ts
+  s_877ee84f308f8e::t_074bb464739c5e 131-144,147-149,154
+tenant/deploy/start-all-tenant.sh
+  s_877ee84f308f8e::t_06ad324eeaa6f5 14-15
+tenant/docs/kiro-e2e-acceptance.md
+  s_877ee84f308f8e::t_fa07f57a4c214e 1-98
+tenant/patches/metadata_config_params.tenant.json
+  s_78accd1e2ecccb::t_aef7aeef332b48 1-87,90-95
+  s_78accd1e2ecccb::t_63688e253e72a0 88-89
+tenant/config-web/src/mem-core-profile.smoke.mjs
+  s_877ee84f308f8e::t_764b3758ebda9f 1-58
+tenant/config-web/.npmrc
+  s_0532b7832e477d::t_4bee5de68fa8b9 1-6
+tenant/config-web/Dockerfile
+  s_0532b7832e477d::t_53eb3b20df2775 7-10,12
+tenant/deploy/start-config-web.sh
+  s_78accd1e2ecccb::t_58523e540f9f52 29,31,33,40
+  s_0532b7832e477d::t_5fc0de4fc66e7d 63-72
+  s_0532b7832e477d::t_4248f360a02604 91-92
+  s_0532b7832e477d::t_c0bb48b1e75b32 81-82,89-90
+  s_78accd1e2ecccb::t_229d4875928d00 26-28,30,32,34-39,41
+.scratch/kiro-reverse-tunnel/issues/03-e2e-proxy-tunnel-kiro-memory.md
+  s_0532b7832e477d::t_a4b5aea4881d85 1-6
+  s_877ee84f308f8e::t_3a130262847240 7-32
+tenant/CONTEXT.md
+  s_0532b7832e477d::t_fd2703be62d450 12,15-17
+tenant/deploy/start-proxy-tenant.sh
+  s_68b9dafe1c5f2c::t_325cc8a1502d93 95-100
+  s_68b9dafe1c5f2c::t_4d2a1a0b49947b 149
+  s_78accd1e2ecccb::t_6a4b29a8a388e8 36,38,40,47
+  s_0532b7832e477d::t_b5d379678dd036 87-92,101,140-142
+  s_78accd1e2ecccb::t_a8d64a642913e3 31-35,37,39,41-46,48
+tenant/config-web/web/index.html
+  s_648e68df64eb1b::t_e2634c1fb38e7e 53,154
+tenant/config-web/src/server.ts
+  s_648e68df64eb1b::t_e2634c1fb38e7e 33,36-74,84-87,90-92,117-118,247-251
+.gitignore
+  s_877ee84f308f8e::t_618910b49afec7 78
+tenant/patches/build-memory-proxy.sh
+  s_78accd1e2ecccb::t_a92c4e479e5b8c 22-33
+tenant/deploy/start-memory-core-tenant.sh
+  s_877ee84f308f8e::t_53994b3639ad05 1-63
+tenant/patches/upstream-resolver.smoke.mjs
+  s_877ee84f308f8e::t_66c1dbd5167bac 4-9,16,19-26,29-30,39,41,58,81-116,118-137,139-144,146-155,159-164
+  s_0532b7832e477d::t_7389795403f83d 28
+tenant/patches/upstream-resolver.ts
+  s_78accd1e2ecccb::t_a317bc6382e8d1 111-114,116,130-134
+tenant/README.md
+  s_877ee84f308f8e::t_1d4161b41e6199 142-143
+MemoryProxy/src/upstream-resolver.ts
+  s_877ee84f308f8e::t_8ba24bda20b530 111-114,116,130-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "57a5cd50226c667264080d74040f8ffcef4ee69b",
+  "prompts": {},
+  "humans": {
+    "h_ed3da78633d042": {
+      "author": "ly.qu <ly.qu@trip.com>"
+    }
+  },
+  "sessions": {
+    "s_0532b7832e477d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "437423f6-8465-4945-995f-81a46f71c17c",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_648e68df64eb1b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b1775470-9a91-4791-9df4-c4f14a123e16",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_68b9dafe1c5f2c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6d6342ce-a763-47d1-85a5-119164368637",
+        "model": "ep-tavmzh6e"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_78accd1e2ecccb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b03e040e-dff4-49b7-9306-2cfc062678dc",
+        "model": "arn:aws:bedrock:us-west-2:296122126678:application-inference-profile/uxc50ltr1528"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    },
+    "s_877ee84f308f8e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "475eb4ba-8f59-467c-9b5a-553a23c7f397",
+        "model": "default"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
