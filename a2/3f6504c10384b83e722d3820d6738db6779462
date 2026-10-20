@@ -1,0 +1,21 @@
+deploy/global-images/verify.sh
+  s_7563071f580822::t_8feab897be5f52 273-291
+deploy/global-images/_lib.sh
+  s_7563071f580822::t_5dfb435437937e 81-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.50-trip",
+  "base_commit_sha": "a23f6504c10384b83e722d3820d6738db6779462",
+  "prompts": {},
+  "sessions": {
+    "s_7563071f580822": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "86645bc6-ed14-4fdf-911b-1a2c705dd4e6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
