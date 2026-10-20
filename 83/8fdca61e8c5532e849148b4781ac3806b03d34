@@ -1,0 +1,25 @@
+tenant/scripts/sync-upstream.sh
+  s_7563071f580822::t_f78c055f03a79e 213-228
+tenant/.upstream-baseline
+  s_7563071f580822::t_78f653285e3eb9 1
+tenant/scripts/verify-overlay.sh
+  s_7563071f580822::t_2519b894109c52 35-39
+  s_7563071f580822::t_027e1a26137494 51-59
+  s_7563071f580822::t_8a98959f8ff7e7 151-154,158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.50-trip",
+  "base_commit_sha": "838fdca61e8c5532e849148b4781ac3806b03d34",
+  "prompts": {},
+  "sessions": {
+    "s_7563071f580822": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "86645bc6-ed14-4fdf-911b-1a2c705dd4e6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
