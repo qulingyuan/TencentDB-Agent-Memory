@@ -1,0 +1,19 @@
+tenant/scripts/sync-upstream.sh
+  s_7563071f580822::t_c1367c6cdac356 198
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.50-trip",
+  "base_commit_sha": "ea8cb64b687af6a11e80d854accabdf206fbc061",
+  "prompts": {},
+  "sessions": {
+    "s_7563071f580822": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "86645bc6-ed14-4fdf-911b-1a2c705dd4e6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "ly.qu <ly.qu@trip.com>"
+    }
+  }
+}
